@@ -1,0 +1,106 @@
+body{
+    background-image: url(bg.jpg);
+    border:3px solid rgb(22, 189, 22);
+    outline:2px solid darkgreen;
+}
+.container{
+    
+    display: flex;
+   
+    flex-direction: row;
+    }
+.welcome{
+    background-color: black;
+    border: 3px solid red;
+    color: white;
+    display: flex;
+    font-style: italic;
+     font-size:xx-large;
+}
+.msg{
+    
+    border-radius: 20px;
+    width: 318px;
+    height: 110px;
+    padding: 22px;
+    margin: 10px;
+    text-align: center;
+    padding-right: 35px;
+    
+}
+.nav{
+    border-radius: 28px;
+    width: 447px;
+    height: 26px;
+    padding: 10px 10px 10px 78px;
+    position: absolute;
+    top: 31px;
+    left: 276px;
+}
+.contact{
+    border-radius: 20px;
+    margin-top: 0px;
+    width: 340px;
+    height: 135px;
+    margin-left: auto;
+    margin-top: 10px;
+    padding:10px 20px 10px 20px;
+    
+
+}
+.menu{
+    border-radius: 30px;
+    width: 362px;
+    height: 22px;
+    padding: 20px;
+    margin: auto;
+    
+    
+}
+.circle{
+    display: inline-block;
+    position:relative;
+    top:250px;
+    left:10px;
+    background-color: rgb(0, 102, 128) ;
+    border-radius: 100%;;
+    border:4px solid grey;
+    width: 337px;
+    height: 325px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+font-weight: bold;
+}
+.container1{
+    display: inline-block;
+    background-color: white;
+height:auto;
+width:350px;
+text-align: center;
+border:4px dashed red;
+margin-left: 660px;
+margin-top: -266px;
+
+
+}
+.formcontent{
+    color: red;
+}
+.container2{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    row-gap:  20px;
+    margin:50px 0px 30px 80px;
+    
+}
+.box{
+    border: 2px solid green;
+     border-radius: 50px; 
+    color:midnightblue;
+    background-color: aquamarine;
+    height: 250px;
+    width: 300px;
+    text-align: center;   
+}
+
